@@ -5,7 +5,7 @@
         <!-- <img alt="" :src="content.fields.image.value" /> -->
         <nuxt-link :to="`/article/${content.public_uid}`">{{
           content.fields.title.value
-        }}を見る</nuxt-link>
+        }}</nuxt-link>
       </li>
     </ul>
   </div>
